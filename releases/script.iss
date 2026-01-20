@@ -110,6 +110,9 @@ Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Relea
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\zxing.presentation.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\zxing.presentation.xml"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\zxing.xml"; DestDir: "{app}"; Flags: ignoreversion
+
+Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\Resources\iconsoft.ico"; DestDir: "{app}"; Flags: ignoreversion
+
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
@@ -120,8 +123,11 @@ Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}\shell\open\command"; Value
 Root: HKA; Subkey: "Software\Classes\Applications\{#MyAppExeName}\SupportedTypes"; ValueType: string; ValueName: ".myp"; ValueData: ""
 
 [Icons]
-Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+; Start Menu shortcut with custom icon
+Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\iconsoft.ico"; WorkingDir: "{app}"
+
+; Desktop shortcut with custom icon
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\iconsoft.ico"; Tasks: desktopicon; WorkingDir: "{app}"
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
