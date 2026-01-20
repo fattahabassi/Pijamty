@@ -111,6 +111,8 @@ Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Relea
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\zxing.presentation.xml"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\zxing.xml"; DestDir: "{app}"; Flags: ignoreversion
 
+Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\x64\SQLite.Interop.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\AutoUpdater.NET.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\Resources\iconsoft.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
