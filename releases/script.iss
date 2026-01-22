@@ -60,7 +60,7 @@ Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Relea
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.application"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.exe.locked"; DestDir: "{app}"; Flags: ignoreversion
+
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.exe.manifest"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\Facture.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Projet Visual Studio\PointVenteSoft_Pijamti_Chales\Facture\bin\Release\JetBrains.Annotations.dll"; DestDir: "{app}"; Flags: ignoreversion
